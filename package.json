@@ -19,11 +19,15 @@
     "esbuild": "0.20.2",
     "obsidian": "latest",
     "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
     "tslib": "2.6.2",
     "typescript": "5.4.5"
   },
   "prettier": {
     "useTabs": false,
-    "tabWidth": 2
+    "tabWidth": 2,
+    "plugins": [
+      "prettier-plugin-organize-imports"
+    ]
   }
 }
